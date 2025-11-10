@@ -1,0 +1,135 @@
+:root {
+  /* Core Colors */
+  --primary: #0f172a; /* Navy Gray */
+  --secondary: #e2e8f0; /* Deep Slate */
+  --accent: #0d9488; /* Teal Accent */
+  --background: #f8fafc; /* Soft Gray */
+  --surface: #ffffff; /* White Surface */
+
+  /* Financial Colors */
+  --success: #16a34a; /* Profit Green */
+  --warning: #facc15; /* Caution Yellow */
+  --danger: #dc2626; /* Loss Red */
+  --info: #0284c7; /* Info Blue */
+
+  /* Text Colors */
+  --text-primary: #0f172a; /* Main Text */
+  --text-secondary: #475569; /* Secondary Text */
+  --text-muted: #94a3b8; /* Muted Text */
+  --text-accent: #0f172a; /* Accent Text */
+
+  /* Border Colors */
+  --border-light: #e2e8f0;
+  --border-medium: #cbd5e1;
+  --border-dark: #94a3b8;
+}
+
+.dark {
+  /* Core Colors - Dark Mode */
+  --primary: #f1f5f9;
+  --secondary: #1e293b;
+  --accent: #2dd4bf;
+  --background: #0f172a;
+  --surface: #1e293b;
+
+  /* Financial Colors - Dark Mode */
+  --success: #22c55e;
+  --warning: #fcd34d;
+  --danger: #f87171;
+  --info: #38bdf8;
+
+  /* Text Colors - Dark Mode */
+  --text-primary: #f8fafc;
+  --text-secondary: #e2e8f0;
+  --text-muted: #94a3b8;
+  --text-accent: #ffffff;
+
+  /* Border Colors - Dark Mode */
+  --border-light: #334155;
+  --border-medium: #475569;
+  --border-dark: #64748b;
+}
+
+/* Core Theme Classes */
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+.bg-background {
+  background-color: var(--background) !important;
+}
+.bg-surface {
+  background-color: var(--surface) !important;
+}
+
+.text-primary {
+  color: var(--text-primary) !important;
+}
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+.text-muted {
+  color: var(--text-muted) !important;
+}
+.text-accent {
+  color: var(--text-accent) !important;
+}
+.text-surface {
+  color: var(--surface) !important;
+}
+
+/* Financial Theme Classes */
+.bg-success {
+  background-color: var(--success) !important;
+}
+.bg-warning {
+  background-color: var(--warning) !important;
+}
+.bg-danger {
+  background-color: var(--danger) !important;
+}
+.bg-info {
+  background-color: var(--info) !important;
+}
+
+.text-success {
+  color: var(--success) !important;
+}
+.text-warning {
+  color: var(--warning) !important;
+}
+.text-danger {
+  color: var(--danger) !important;
+}
+.text-info {
+  color: var(--info) !important;
+}
+
+/* Border Classes */
+.border-light {
+  border-color: var(--border-light) !important;
+}
+.border-medium {
+  border-color: var(--border-medium) !important;
+}
+.border-dark {
+  border-color: var(--border-dark) !important;
+}
+
+/* Utility Classes */
+.shadow-finance {
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.1),
+    0 2px 4px -1px rgba(15, 23, 42, 0.06);
+}
+.shadow-finance-lg {
+  box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.1),
+    0 4px 6px -2px rgba(15, 23, 42, 0.05);
+}
+.transition-finance {
+  transition: all 0.2s ease-in-out;
+}
